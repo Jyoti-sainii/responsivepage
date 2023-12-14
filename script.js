@@ -1,8 +1,8 @@
 let navbar = document.querySelector("nav");
 let menulinks = document.getElementById("menu-links");
 
-function toogleMenu(){
-    menulinks.classList.toogle("show-menu");
+function toogleMenu() {
+  menulinks.classList.toogle("show-menu");
 }
 
 window.onscroll = function () {
